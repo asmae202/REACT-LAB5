@@ -1,0 +1,40 @@
+.formulaire-nc-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.formulaire-nc-container h2 {
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+.formulaire-nc-container input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.formulaire-nc-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.formulaire-nc-container button:hover {
+  background-color: #e0533c;
+}
