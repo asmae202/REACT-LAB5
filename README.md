@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+✨🌟 TP React – Formulaires et Lifting State 🌟✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+────────────────────────────
+🎯 Objectif
+────────────────────────────
 
-## Available Scripts
+Ce TP permet de mettre en pratique :
 
-In the project directory, you can run:
+Les formulaires contrôlés et non-contrôlés
 
-### `npm start`
+Le partage d’état entre parent et enfant (Lifting State)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La gestion des événements utilisateurs
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+L’organisation d’une application React propre et stylée
 
-### `npm test`
+────────────────────────────
+🧩 Composants
+────────────────────────────
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌸 FormulaireContrôlé : formulaire relié au state, affiche une alerte à la soumission.
+🌸 FormulaireNonContrôlé : formulaire utilisant useRef pour accéder directement aux valeurs.
+🌸 TemperatureInput : input pour la température, valeur reçue depuis le parent.
+🌸 TemperatureConvertor : parent qui gère l’état de la température et affiche le résultat.
 
-### `npm run build`
+────────────────────────────
+💡 Concepts clés
+────────────────────────────
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔹 useState : gestion du state local
+🔹 useRef : référence directe à un élément DOM
+🔹 Props : passage de données parent → enfant
+🔹 Lifting State Up : état global partagé entre parent et enfant
+🔹 Formulaire contrôlé vs non-contrôlé : gérer le state ou accéder directement à la valeur
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+────────────────────────────
+🚀 Exécution
+────────────────────────────
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1️⃣ Vérifier Node.js et npm :
 
-### `npm run eject`
+node -v
+npm -v
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2️⃣ Lancer le projet :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3️⃣ Ouvrir dans le navigateur : http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+────────────────────────────
+🔗 Résultat:
+────────────────────────────
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://github.com/user-attachments/assets/74c130c5-1761-4576-bb77-db2624866bc8
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+────────────────────────────
+✨🌟 FIN DU TP 🌟✨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
